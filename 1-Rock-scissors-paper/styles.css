@@ -12,6 +12,7 @@ button
     border-radius: 15px;
     margin: 5px;
     cursor: pointer;
+    float: none;
 }
 .selection img
 {
@@ -42,7 +43,9 @@ h1 {
     font-style: italic;
     font-size: 20px;
     padding: 10px;
-
+    padding-top: 0px;
+    padding-bottom: -1px;
+}
 }
 
 

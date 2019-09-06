@@ -1,0 +1,50 @@
+button
+{
+    background-color: darkmagenta;
+    color: white;
+    border-radius: 50px;
+    font-size: 250%;
+}
+.selection
+{
+    list-style: none; /* Remove the bullet */
+    border: 10px white solid;
+    border-radius: 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+.selection img
+{
+    width: 70px; /* All the images have the same size */
+    padding: 10px;
+}
+h1 {
+    color: olive;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+}
+#game{
+    background-color: lightpink ;
+    border-radius: 15px;
+}
+
+#userSelection
+{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+#result{
+    text-align: center;
+    color: olive;
+    font-style: italic;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+
+
+

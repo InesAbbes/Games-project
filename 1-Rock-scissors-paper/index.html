@@ -2,9 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <meta name="viewport" content="width=device-width">
+    <title>Guess</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+<div id="game">
+    <div id="userSelection">
+        <h1>The Rock-Paper-Scissors game</h1>
+        <h1>Select your choice</h1>
+        <ul>
+            <li class="selection" id="stone">
+                <img src="stone.png" alt="Stone" onclick="playWith('stone')"/>
+            </li>
+            <li class="selection" id="paper">
+                <img src="paper.png" alt="Paper" onclick="playWith('paper')"/>
+            </li>
+            <li class="selection" id="scissor">
+                <img src="scissor.png" alt="Scisor" onclick="playWith('scissor')"/>
+            </li>
+        </ul>
+        <button onclick="playGame()">Play</button>
+    </div>
+    <div id="result">
 
+    </div>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
